@@ -13,5 +13,6 @@
 -- | 1906 | Chicago Cubs                      | 116  |
 -- | 2001 | Seattle Mariners                  | 116  |
 -- +------+-----------------------------------+------+
-
-
+SELECT year, name, wins
+FROM teams
+ORDER BY wins;
